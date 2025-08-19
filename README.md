@@ -69,45 +69,50 @@ to make a complex, data-driven application feel effortless, intuitive, and cinem
 
 ## ⚡ Setup & Local Deployment
 
-### Step 1: Prerequisites
-Install required libraries:  
-```bash
+# ————————————————————————————————
+# 1. Prerequisites: Installing the toolkit
+# ————————————————————————————————
 pip install streamlit pandas numpy scikit-learn requests
 
-Download dataset:
+# ————————————————————————————————
+# 2. Dataset: Curating the cinematic archive
+# ————————————————————————————————
+# Download the MovieLens "Latest Small" Dataset from:
+# https://grouplens.org/datasets/movielens/latest/
+#
+# Unzip → a folder named `ml-latest-small/` appears.
+# Place it beside your `app.py`.
+#
+# Final structure should resemble:
+# /your_project_folder/
+#   ├── app.py
+#   ├── /ml-latest-small/
+#       ├── movies.csv
+#       ├── ratings.csv
+#       └── ...
 
-Get the MovieLens Latest Small Dataset
-.
-
-Unzip → you will have a folder called ml-latest-small/.
-
-Place this folder in the same directory as your app.py.
-
-Your structure should look like:
-/your_project_folder/
-  ├── app.py
-  ├── /ml-latest-small/
-      ├── movies.csv
-      ├── ratings.csv
-      └── ...
-Step 2: Launch CineSphere
-
-Run the app locally:
+# ————————————————————————————————
+# 3. The Premiere: Launching CineSphere
+# ————————————————————————————————
 streamlit run app.py
-Then open your browser → http://localhost:8501
 
-🌀 The Vision
+# Open your browser curtain:
+# http://localhost:8501
 
-CineSphere is not a product. It is a prototype manifesto.
-A reimagining of what film discovery could be if shaped by curiosity, narrative, and human intention.
-
-This is not a search bar. This is a dialogue with cinema.
-
-✅ This version is:  
-- **GitHub-optimized** (proper Markdown, badges, clean sections).  
-- **Easy to copy-paste into README.md**.  
-- **Keeps your cinematic manifesto tone** while also being developer-friendly.  
-
-Do you want me to also add a **preview screenshot section** (with placeholders for you to drop images of the app UI)?
-
-The curtain rises. The dialogue begins.
+# ————————————————————————————————
+# 🌀 The Vision
+# ————————————————————————————————
+# CineSphere is not a product.
+# It is a prototype manifesto —
+# a reimagining of what film discovery could be
+# if shaped by curiosity, narrative, and human intention.
+#
+# This is not a search bar.
+# This is a dialogue with cinema.
+#
+# ✅ GitHub-Optimized:
+#    - Clean Markdown
+#    - Developer-friendly
+#    - Cinematic manifesto tone
+#
+# The curtain rises. The dialogue begins.
