@@ -67,52 +67,15 @@ to make a complex, data-driven application feel effortless, intuitive, and cinem
 
 ---
 
-## ⚡ Setup & Local Deployment
+# ⚡ Setup & Launch CineSphere
 
-# ————————————————————————————————
-# 1. Prerequisites: Installing the toolkit
-# ————————————————————————————————
+# Step 1 — Install dependencies
 pip install streamlit pandas numpy scikit-learn requests
 
-# ————————————————————————————————
-# 2. Dataset: Curating the cinematic archive
-# ————————————————————————————————
-# Download the MovieLens "Latest Small" Dataset from:
-# https://grouplens.org/datasets/movielens/latest/
-#
-# Unzip → a folder named `ml-latest-small/` appears.
-# Place it beside your `app.py`.
-#
-# Final structure should resemble:
-# /your_project_folder/
-#   ├── app.py
-#   ├── /ml-latest-small/
-#       ├── movies.csv
-#       ├── ratings.csv
-#       └── ...
+# Step 2 — Download MovieLens dataset
+curl -O https://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+unzip ml-latest-small.zip
+rm ml-latest-small.zip
 
-# ————————————————————————————————
-# 3. The Premiere: Launching CineSphere
-# ————————————————————————————————
+# Step 3 — Run CineSphere
 streamlit run app.py
-
-# Open your browser curtain:
-# http://localhost:8501
-
-# ————————————————————————————————
-# 🌀 The Vision
-# ————————————————————————————————
-# CineSphere is not a product.
-# It is a prototype manifesto —
-# a reimagining of what film discovery could be
-# if shaped by curiosity, narrative, and human intention.
-#
-# This is not a search bar.
-# This is a dialogue with cinema.
-#
-# ✅ GitHub-Optimized:
-#    - Clean Markdown
-#    - Developer-friendly
-#    - Cinematic manifesto tone
-#
-# The curtain rises. The dialogue begins.
