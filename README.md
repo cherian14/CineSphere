@@ -94,8 +94,9 @@ Every technical decision was made in service of a single goal: to make a complex
 
 ## The Architect
 
-**[Your Name]**
 
-*   **LinkedIn:** [Your LinkedIn URL]
-*   **GitHub:** [Your GitHub Profile URL]
-*   **Portfolio:** [Your Portfolio Website URL]
+**Built with ❤️ by Cherian R**
+
+*   **GitHub:** [@CHERIAN](https://github.com/CHERIAN)
+*   **LinkedIn:** [Cherian R](https://www.linkedin.com/in/cherian-r-a1bba3292/)
+*   **Email:** `cherian262005@gmail.com`
